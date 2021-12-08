@@ -43,7 +43,7 @@
       
       Inserts a row into the ```movie_list``` table for each item in the ```datasets/json/movies.json``` JSON file that passes the following requirements
       
-         a. ```The movie was made after 2018```
+         a. ```The movie was made in or after 2018```
          
          b. ```The movie has a english version```
          
