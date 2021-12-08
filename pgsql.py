@@ -10,6 +10,7 @@ def query(query, values=None):
         cursor.execute(query, values)
     else:
         cursor.execute(query)
+
         # return query results
         return cursor.fetchall()
 

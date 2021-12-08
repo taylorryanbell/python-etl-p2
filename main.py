@@ -1,13 +1,13 @@
+import pgsql
 import sql
-from pgsql import query
+import requests
 
-# Press the green button in the gutter to run the script.
+def get_movie_data(title):
+    headers = {"Authorization": "9855f49b"}
+    request_url = f"https://www.omdbapi.com/?t={title}&apikey=686eed26"
+    return requests.get(request_url, headers=headers).json()
+
 if __name__ == '__main__':
-    # insert data
-    query(sql.test_insert, ["My Insert!"]);
 
-    # select data
-    results = query(sql.test_select);
-    print("results: ", results)
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # get some movie data from the API
+    print(get_movie_data('WarGames'))
