@@ -57,4 +57,5 @@
          - this should help once you do a little digging... ```%d %b %Y```
       - When converting data you may also want to look up the following python functions ```split``` and ```replace```
    - if a movies is not foundy by title in the API ```OR``` any required data is returned as ```N/A``` from the API you can ignore that movie.
+   - ```API``` calls are not free, you should do as much filtering before you request the extra data to keep costs down.
       
