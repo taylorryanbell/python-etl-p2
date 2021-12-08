@@ -1,9 +1,0 @@
-DROP TABLE IF EXISTS petl1.AnnualTicketSales;
-DROP TABLE IF EXISTS petl1.HighestGrossers;
-DROP TABLE IF EXISTS petl1.PopularCreativeTypes;
-DROP TABLE IF EXISTS petl1.TopDistributors;
-DROP TABLE IF EXISTS petl1.TopGenres;
-DROP TABLE IF EXISTS petl1.TopGrossingRatings;
-DROP TABLE IF EXISTS petl1.TopGrossingSources;
-DROP TABLE IF EXISTS petl1.TopProductionMethods;
-DROP TABLE IF EXISTS petl1.WideReleasesCount;
