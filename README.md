@@ -19,7 +19,8 @@
       - ```password``` is the password
    
    2. Create the ```venv``` from the pycharm project config screen and install the ```psycopg2-binary``` package
-   3. Make sure your run configuration is pointed to you projects ```venv``` should say ```Project Default```
+   3. Make sure your run configuration is pointed to you projects ```venv```
+         - It should say ```Project Default```
    
 ## Project
    1. Create a fork of this repo with the following naming convention ```[first-name]-[last-name]-python-etl-p2```
